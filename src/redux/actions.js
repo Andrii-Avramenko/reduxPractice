@@ -1,4 +1,4 @@
-const increament = () => { type: 'increament' }
-const decreament = () => { type: 'decreament' }
+const increament = () => ({ type: 'increament' })
+const decreament = () => ({ type: 'decreament' })
 
 export { increament, decreament }
